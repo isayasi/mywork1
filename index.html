@@ -1,0 +1,103 @@
+<!DOCTYPE html> <!-- Defines the document type -->
+<html> <!-- Root element for the HTML document -->
+<head> <!-- Contains metadata for the HTML document -->
+    <title>About Quenzzy</title> <!-- Title of the HTML document -->
+    <link href="style.css" rel="stylesheet" type="text/css"> <!-- Linking to an external CSS file -->
+</head>
+<body> <!-- Main content of the HTML document -->
+
+    <div class="background"></div> <!-- Placeholder for background styling -->
+    <div class="About"> <!-- Section for the About Me content -->
+        <h1><b>About</b> <span class="bh1">Me</span></h1> <!-- Heading with styling -->
+        <div class="container"> <!-- Container for content -->
+            <div class="image1"> <!-- Placeholder for an image -->
+                <img src="111.jpeg" alt="Quenzzy"> <!-- Image source -->
+            </div>
+        </div>
+        <p> <!-- Paragraph for personal information -->
+            Hi! My name is <span class="name"> Quenzzy Navelgas</span>, you can call me kwens. I'm <span class="old">19 years old</span> and born on <span class="birth">July 30, 2004</span>. 
+            I am currently a 2nd-year college student taking the <span class="course">Computer Science</span> course at Emilio Aguinaldo College - Cavite. I reside at <span class="where">Antonio De Padua II, Dasmarinas, Cavite</span>. 
+            Even though I am currently taking a <span class="course">Computer Science</span> course, I still want to pursue other dream jobs like <span class="animator">Animator</span> and <span class="astronaut">Astronaut</span>. 
+            My hobbies are:
+        </p>
+
+        <div class="List"> <!-- List of hobbies -->
+            <b>
+                <li>Singing</li>
+                <li>Dancing</li>
+                <li>Reading stories</li>
+                <li>Playing guitar</li>
+                <li>Drawing</li>
+            </b>
+        </div>
+    </div>
+
+    <div class="DailyRoutine"> <!-- Section for daily routine -->
+        <body> <!-- Body of the daily routine section -->
+
+            <h1>Daily<span class="student"> Student</span> Routine</h1> <!-- Heading with styling -->
+
+            <table> <!-- Table for displaying daily activities -->
+                <thead> <!-- Table header -->
+                    <tr> <!-- Table row -->
+                        <th scope="col">Monday</th> <!-- Table column header -->
+                        <th scope="col">Tuesday</th>
+                        <th scope="col">Wednesday</th>
+                        <th scope="col">Thursday</th>
+                        <th scope="col">Friday</th>
+                        <th scope="col">Saturday</th>
+                        <th scope="col">Sunday</th>
+                    </tr>
+                </thead>
+                <tbody> <!-- Table body -->
+                    <tr> <!-- Table row -->
+                        <td>Online Class</td> <!-- Table data cell -->
+                        <td>Rest</td>
+                        <td>Online Class</td>
+                        <td>Onsite Class</td>
+                        <td>Onsite Class</td>
+                        <td>Online Class</td>
+                        <td>Rest</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+    </div>
+
+    <div class="Forms"> <!-- Section for forms -->
+        <h3>Put your<span class="n1"> name </span>here: </h3> <!-- Heading with styling -->
+        <form action="http://www.example.com/login.php"> <!-- Form for inputting name -->
+            <p>
+                <input type="text" id="nameInput" name="name" size="15" maxlength="30" /> <!-- Input field for name -->
+            </p>
+        </form>
+        <div id="thankYouMessage"></div> <!-- Placeholder for thank you message -->
+        <script> <!-- JavaScript code for handling form submission -->
+            document.getElementById('nameInput').addEventListener('keypress', function(event) {
+              const key = event.key || event.keyCode;
+              if (key === 'Enter' || key === 13) {
+                const name = document.getElementById('nameInput').value.trim();
+                const thankYouDiv = document.getElementById('thankYouMessage');
+                thankYouDiv.innerText = `Thank you, ${name}!`; <!-- Displaying thank you message -->
+                event.preventDefault();
+              }
+            });
+          </script>
+    </div>
+
+    <div class="Contact"> <!-- Section for contact information -->
+        <h1>Contact <span class="c1">Me</span>:</h1> <!-- Heading with styling -->
+        <div class="Social"> <!-- Social media links -->
+            <div class="fb"> <!-- Facebook link -->
+                <a href="https://www.facebook.com/kwenzyyy" target="_blank"><img src="fb.png" alt="Facebook"></a>
+            </div>
+            <div class="ig"> <!-- Instagram link -->
+                <a href="https://www.instagram.com/ys_nwk/" target="_blank"><img src="ig.png" alt="Instagram"></a>
+            </div>
+            <div class="twitter"> <!-- Twitter link -->
+                <a href="https://mobile.twitter.com/ys_nwk" target="_blank"><img src="twt.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
