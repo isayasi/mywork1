@@ -55,6 +55,7 @@ body {
     padding: 5px 10px; /* Padding */
     margin: 5px 0; /* Margin */
     border-radius: 5px; /* Border radius */
+    text-align: center; /* Center align text */
 }
 
 /* Styles for the container */
