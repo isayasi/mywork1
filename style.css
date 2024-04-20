@@ -1,0 +1,218 @@
+/* Styles for the entire body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /* Using Arial font */
+}
+
+/* Styles for the About section */
+.About {
+    position: relative; /* Relative positioning */
+}
+
+/* Styles for the background */
+.background {
+    background-image: url('bg.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Fixed positioning */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /* Behind other elements */
+}
+
+/* Styles for h1 in the About section */
+.About h1 {
+    font-size: 30px; /* Font size */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 30px; /* Space at the top */
+    text-shadow: 2px 2px 2px #000000; /* Text shadow effect */
+}
+
+/* Styles for .bh1 in the About section */
+.bh1 {
+    font-size: 30px; /* Font size */
+    color: rgb(194,123,160); /* Custom text color */
+    text-align: center; /* Center align text */
+    padding-top: 30px; /* Space at the top */
+    text-shadow: 2px 2px 2px #000000; /* Text shadow effect */
+}
+
+/* Styles for the list in the About section */
+.List {
+    margin-top: 20px; /* Space at the top */
+    color: rgb(194,123,160); /* Custom text color */
+    text-align: center; /* Center align text */
+}
+
+/* Styles for list items in the About section */
+.List li {
+    list-style-type: circle; /* Bullet type */
+    text-align: justify; /* Justify text */
+    padding: 5px 10px; /* Padding */
+    margin: 5px 0; /* Margin */
+    border-radius: 5px; /* Border radius */
+}
+
+/* Styles for the container */
+.container {
+    display: flex; /* Flexbox display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 250px; /* Fixed height */
+}
+
+/* Styles for .image1 */
+.image1 {
+    width: 200px; /* Width */
+    height: 200px; /* Height */
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 0 40px rgba(130, 96, 162, 0.5); /* Box shadow effect */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Styles for images */
+img {
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover image */
+    display: block; /* Display as block element */
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: medium; /* Font size */
+    color: white; /* Text color */
+    text-align: justify; /* Justify text */
+    padding-top: 20px; /* Space at the top */
+    padding-left: 10%; /* Padding on the left */
+    padding-right: 10%; /* Padding on the right */
+}
+
+/* Styles for specific classes */
+.name,
+.old,
+.course,
+.where,
+.c1,
+.astronaut,
+.animator,
+.student,
+.n1 {
+    color: rgb(194,123,160); /* Custom text color */
+    font-weight: bolder; /* Bold font weight */
+    text-shadow: 2px 2px 2px #000000; /* Text shadow effect */
+}
+
+/* Styles for tables */
+table {
+    border: none; /* No border */
+    background-color: rgb(60,56,62); /* Background color */
+    margin: 0 auto; /* Center horizontally */
+}
+
+/* Styles for table header cells */
+thead th {
+    border-bottom: 2px solid rgb(238,238,238); /* Bottom border */
+    width: 120px; /* Width */
+    color: rgb(194,123,160); /* Custom text color */
+    font-weight: bolder; /* Bold font weight */
+}
+
+/* Styles for table footer cells */
+tfoot td {
+    border-top: 1px solid rgb(238,238,238); /* Top border */
+}
+
+/* Styles for table body rows */
+tbody tr {
+    color: rgb(192,151,207); /* Custom text color */
+    font-style: italic; /* Italic font style */
+    text-align: center; /* Center align text */
+}
+
+/* Styles for h1 in the DailyRoutine section */
+.DailyRoutine h1 {
+    font-size: 30px; /* Font size */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 1px; /* Space at the top */
+    text-shadow: 2px 2px 2px #000000; /* Text shadow effect */
+}
+
+/* Styles for h3 in the Forms section */
+.Forms h3 {
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 1px; /* Space at the top */
+    text-shadow: 2px 2px 2px #000000; /* Text shadow effect */
+}
+
+/* Styles for input[type="text"] */
+input[type="text"] {
+    width: 300px; /* Width */
+    padding: 8px; /* Padding */
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 10px; /* Space at the bottom */
+    display: block; /* Display as block element */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 4px; /* Border radius */
+}
+
+/* Styles for #thankYouMessage */
+#thankYouMessage {
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    color: rgb(194,123,160); /* Custom text color */
+    margin-top: 10px; /* Space at the top */
+    text-align: center; /* Center align text */
+}
+
+/* Styles for the Contact section */
+.Contact {
+    text-align: center; /* Center align text */
+    margin-top: 10px; /* Space at the top */
+    background-color: rgb(130,96,162); /* Background color */
+}
+
+/* Styles for the Social section */
+.Social {
+    display: flex; /* Flexbox display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: rgb(130,96,162); /* Background color */
+    width: 100%; /* Full width */
+    height: 65px; /* Height */
+}
+
+/* Styles for Social div elements */
+.Social div {
+    margin: 0 10px; /* Margin */
+    width: 44px; /* Width */
+    height: 44px; /* Height */
+    border-radius: 50%; /* Circular shape */
+    overflow: hidden; /* Hide overflow */
+}
+
+/* Styles for Social images */
+.Social img {
+    width: 40px; /* Width */
+    height: 40px; /* Height */
+    border-radius: 50%; /* Circular shape */
+    display: flex; /* Flexbox display */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    border: 2px solid rgb(130,96,162); /* Border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow effect */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition effect */
+}
+
+/* Hover styles for Social images */
+.Social img:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+    box-shadow: 0 0 20px rgba(192, 151, 207, 1); /* Box shadow effect on hover */
+}
